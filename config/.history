@@ -1,2 +1,9 @@
 npm install uuid
 npm start
+npm install uuid
+git add .
+git commit -m "Data is saved to local storage instead of MongoDB from this point"
+git push
+npm start
+npm build
+npm run-script build

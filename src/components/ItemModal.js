@@ -63,7 +63,7 @@ class ItemModal extends Component {
                   type="text"
                   name="name"
                   id="item"
-                  placeholder="Add morning ritual habit"
+                  placeholder="Name your habit"
                   onChange={this.onChange}
                 />
                 <Button color="success" style={{ marginTop: '2rem' }} block>
