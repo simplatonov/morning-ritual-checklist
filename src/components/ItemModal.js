@@ -46,7 +46,7 @@ class ItemModal extends Component {
     return (
       <div>
         <Button
-          color="dark"
+          color="success"
           style={{ marginTop:"2rem",marginBottom: '2rem' }}
           onClick={this.toggle}
         >
@@ -66,7 +66,7 @@ class ItemModal extends Component {
                   placeholder="Add morning ritual habit"
                   onChange={this.onChange}
                 />
-                <Button color="dark" style={{ marginTop: '2rem' }} block>
+                <Button color="success" style={{ marginTop: '2rem' }} block>
                   Add Habit
                 </Button>
               </FormGroup>

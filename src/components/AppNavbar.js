@@ -27,38 +27,16 @@ class AppNavbar extends Component{
             <NavbarToggler onClick={this.toggle}/>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-              {
-                this.props.route==="main"?
-                <NavItem>
-                <NavLink style={{cursor:"pointer"}} onClick={this.props.loginRoute}>
-                Logout
-                </NavLink>
-                </NavItem>
 
 
 
-                :(
 
 
-                  <NavItem>
-                  <NavLink style={{cursor:"pointer"}} onClick={this.props.loginRoute}>
-                  Login
-                  </NavLink>
-                  </NavItem>
 
-                )}{
-                this.props.route!=="main"?
-                <NavItem>
-
-                  <NavLink style={{cursor:"pointer"}} onClick={this.props.registerRoute}>
-                    Register
-                  </NavLink>
-                </NavItem>:<p></p>
-              }
 
 
                 <NavItem>
-                  <NavLink href="https://github.com/simplatonov">
+                  <NavLink target="_blank" href="https://github.com/simplatonov">
                     Github
                   </NavLink>
                 </NavItem>
